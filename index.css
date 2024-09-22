@@ -1,0 +1,356 @@
+.page{
+    width:100%;
+    margin: 0%;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(28, 42, 53);
+    margin: 0px;
+}
+
+.title{
+    width: 13%;
+    color: white;
+    font-size: 60px;
+    float: left;
+    line-height: 120px;
+    text-align: center;
+    font-style: arial;
+}
+
+.navigation{
+    width: 47%;
+    height: 60px;
+    /* background-color: pink; */
+    float: right;
+    text-decoration: none;
+    line-height: 130px;
+}
+
+.home{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-right: 40px;
+    padding-left: 120px;
+}
+
+.about{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;  
+    padding-right: 40px;
+}
+
+.contact{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-right: 40px;
+}
+
+.signup{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 100px;
+}
+
+.body{
+    width: 100%;
+    height: 700px;
+    background-color: azure;
+}
+
+.intro{
+    width: 100%;
+    height: 100px; 
+    color: black;
+    text-align: center;  
+    line-height: 100px;
+    
+}
+.uppercase{
+    font-family: freestyle script;
+    text-transform: uppercase;
+    font-size: 50px;
+    
+}
+
+.lowercase{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: lowercase;
+    font-size: 25px;
+}
+
+.col1{
+    height: 300px;
+    width: 10%;
+    float: right;
+}
+
+.col2{
+    height: 300px;
+    width: 20%;
+}
+
+.col3{
+    height: 300px;
+    width: 19.5%;
+}
+
+.col4{
+    height: 300px;
+    width: 19.5%;
+}
+
+.col5{
+    height: 300px;
+    width: 20%;
+}
+
+.col6{
+    height: 300px;
+    width: 10%;
+    float: left;
+}
+
+.definition{
+    height: 180px;
+    /* width: 100%; */
+    text-align: center;
+    color:black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    font-size: 25px;
+    font-family: tahoma;
+}
+
+.login-container{
+    margin-right: 15px;
+}
+
+.login-link{
+    height: 50px;
+    width: 20%;
+    float: right;
+    /* display: block; */
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 35px;
+    background-color: rgb(28, 42, 53);
+    text-align: center;
+    line-height: 50px;
+    /* color: antiquewhite;
+    text-decoration: none;
+    font-size: 40px; */
+    /* transition: background-color 0.3s, border-color 0.3s; */
+}
+
+.getstarted{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 28px;   
+}
+
+.footer{
+    height: 60px;
+    background-color: rgb(33, 37, 41);
+}
+
+.contactus{
+    line-height: 80px;
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+/* .contact{
+    color: white;
+    text-decoration: none;
+} */
+
+@media screen and (max-width: 800px) {
+    .page{
+        width: 100%;
+    }
+
+    .header{
+        width: 100%;
+        height: 70px;
+        background-color: #254163;
+    }
+    
+
+    .title{
+        width: 10%;
+        color: white;
+        font-size: 35px;
+        float: left;
+        line-height: 50px;
+        text-align: center;
+        /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+        padding-left: 12px;
+    }
+    
+    .navigation{
+        width: 60%;
+        height: 60px;
+        /* background-color: pink; */
+        float: right;
+        text-decoration: none;
+        line-height: 100px;
+        font-family: tahoma;
+    }
+    
+    .home{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+        padding-right: 15px;
+        padding-left: 0px;
+    }
+    
+    .about{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;  
+        padding-right: 15px;
+    }
+    
+    .contact{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+        padding-right: 15px;
+    }
+    
+    .signup{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+        line-height: 100px;
+    }
+
+    .body{
+        width: 100%;
+        height: 400px;
+        background-color: azure;
+    }
+    
+    .intro{
+        width: 100%;
+        height: 70px; 
+        color: black;
+        text-align: center;  
+        line-height: 60px;
+        /* background-color: #cde5f3; */
+        
+    }
+    .uppercase{
+        font-family: freestyle script;
+        text-transform: uppercase;
+        font-size: 25px;
+        
+    }
+    
+    .lowercase{
+        font-family: tahoma;
+        text-transform: lowercase;
+        font-size: 15px;
+    }
+
+    .col1{
+        height: 10px;
+        width: 8%;
+        float: right;
+    }
+    
+    .col2{
+        height: 100px;
+        width: 20%;
+    }
+    
+    .col3{
+        height: 100px;
+        width: 20%;
+    }
+
+    .col4{
+        height: 100px;
+        width: 20%;
+    }
+    
+    .col5{
+        height: 100px;
+        width: 20%;
+    }
+    
+    .col6{
+        height: 100px;
+        width: 8%;
+        float: left;
+    }
+
+    .definition{
+        height: 155px;
+        text-align: center;
+        color:black;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 10px;
+        font-size: 15px;
+        font-family: tahoma;
+    }
+
+    .login-container{
+        margin-right: 50px;
+    }
+    
+    .login-link{
+        height: 20px;
+        width: 32%;
+        float: right;
+        /* display: block; */
+        padding: 10px 20px;
+        border: 0px;
+        border-radius: 35px;
+        background-color: #3e92f8;
+        text-align: center;
+        line-height: 20px;
+        /* color: antiquewhite;
+        text-decoration: none;
+        font-size: 40px; */
+        /* transition: background-color 0.3s, border-color 0.3s; */
+    }
+    
+    .getstarted{
+        color: #031930;
+        text-decoration: none;
+        font-size: 17px;
+        font-family: tahoma;
+        font-weight: bold;
+    }
+
+    .footer{
+        height: 40px;
+        background-color: #051f3f;
+    }
+    
+    .contactus{
+        line-height: 55px;
+        font-size: 10px;
+        text-align: center;
+        font-family: tahoma;
+        
+    }
+    
+    .contact{
+        color: white;
+        text-decoration: none;
+    }
+    
+}
